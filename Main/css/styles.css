@@ -4172,7 +4172,7 @@ textarea.form-control-lg {
     --bs-navbar-brand-font-size: 1.25rem;
     --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
     --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
-    --bs-navbar-nav-link-padding-x: 20rem;
+    --bs-navbar-nav-link-padding-x: 2rem;
     --bs-navbar-toggler-padding-y: 0.25rem;
     --bs-navbar-toggler-padding-x: 0.75rem;
     --bs-navbar-toggler-font-size: 1.25rem;
