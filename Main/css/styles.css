@@ -4049,7 +4049,6 @@ textarea.form-control-lg {
     color: var(--bs-nav-link-color);
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-    margin-left: 100px;
 }
 
 @media (prefers-reduced-motion: reduce) {
