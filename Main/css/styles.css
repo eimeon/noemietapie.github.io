@@ -4288,7 +4288,7 @@ textarea.form-control-lg {
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
-    vertical-align: bottom;
+    vertical-align: bottom + 100px;
     background-image: var(--bs-navbar-toggler-icon-bg);
     background-repeat: no-repeat;
     background-position: center;
