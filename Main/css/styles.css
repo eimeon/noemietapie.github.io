@@ -4645,8 +4645,8 @@ textarea.form-control-lg {
         }
 
 .navbar-dark {
-    --bs-navbar-color: #000;
-    --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-color: rgba(0, 0, 0, 0.55);
+    --bs-navbar-hover-color: rgba(0, 0, 0, 0.75);
     --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
     --bs-navbar-active-color: #fff;
     --bs-navbar-brand-color: #fff;
@@ -8918,7 +8918,7 @@ textarea.form-control-lg {
 
 .bg-primary {
     --bs-bg-opacity: 1;
-    background-color: white;
+    background-color: white !important;
 }
 
 .bg-secondary {
