@@ -12458,7 +12458,7 @@ p.lead {
     #sideNav .navbar-nav .nav-item .nav-link {
         font-weight: 800;
         letter-spacing: 0.05rem;
-        text-transform: uppercase;
+        text-transform: none;
     }
 
     #sideNav .navbar-toggler:focus {
@@ -12483,6 +12483,9 @@ p.lead {
             display: flex;
             margin: auto auto 0;
             padding: 0.5rem;
+            font-weight: 800;
+            letter-spacing: 0.05rem;
+            text-transform: uppercase;
         }
 
             #sideNav .navbar-brand .img-profile {
@@ -12490,6 +12493,7 @@ p.lead {
                 max-height: 10rem;
                 border: 0.5rem solid rgba(255, 255, 255, 0.2);
             }
+
 
         #sideNav .navbar-collapse {
             display: flex;
