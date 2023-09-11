@@ -4228,6 +4228,7 @@ textarea.form-control-lg {
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
+    margin-left: 40px;
     list-style: none;
 }
 
