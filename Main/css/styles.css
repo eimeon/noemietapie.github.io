@@ -4645,7 +4645,7 @@ textarea.form-control-lg {
         }
 
 .navbar-dark {
-    --bs-navbar-color: rgba(255, 255, 255, 0.55);
+    --bs-navbar-color: #000;
     --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
     --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
     --bs-navbar-active-color: #fff;
@@ -8918,7 +8918,7 @@ textarea.form-control-lg {
 
 .bg-primary {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+    background-color: white;
 }
 
 .bg-secondary {
@@ -12418,7 +12418,7 @@ body {
 @media (min-width: 992px) {
     body {
         padding-top: 0;
-        padding-left: 17rem;
+        padding-left: 5rem;
     }
 }
 
