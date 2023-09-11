@@ -12461,6 +12461,7 @@ p.lead {
         font-weight: 800;
         letter-spacing: 0.05rem;
         text-transform: none;
+        margin-left: 40px;
     }
 
     #sideNav .navbar-toggler:focus {
@@ -12469,7 +12470,7 @@ p.lead {
 
 @media (min-width: 992px) {
     #sideNav {
-        padding-left: 0;
+        padding-left: 20px;
         padding-right: 0;
         text-align: left;
         position: fixed;
