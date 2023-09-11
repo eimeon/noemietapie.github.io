@@ -12472,7 +12472,7 @@ p.lead {
         text-align: left;
         position: fixed;
         top: 0;
-        left: 20;
+        left: 20px;
         display: flex;
         flex-direction: column;
         width: 17rem;
@@ -12486,6 +12486,7 @@ p.lead {
             font-weight: 800;
             letter-spacing: 0.05rem;
             text-transform: uppercase;
+            text-align: left;
         }
 
             #sideNav .navbar-brand .img-profile {
