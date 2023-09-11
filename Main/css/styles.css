@@ -4230,7 +4230,7 @@ textarea.form-control-lg {
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
-    margin-left: 40px;
+    margin-left: 0;
     list-style: none;
 }
 
@@ -12418,7 +12418,7 @@ body {
 @media (min-width: 992px) {
     body {
         padding-top: 0;
-        padding-left: 0;
+        padding-left: 17rem;
     }
 }
 
