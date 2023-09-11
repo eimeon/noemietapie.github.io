@@ -4210,6 +4210,8 @@ textarea.form-control-lg {
     font-size: var(--bs-navbar-brand-font-size);
     color: var(--bs-navbar-brand-color);
     text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
     white-space: nowrap;
 }
 
@@ -12480,7 +12482,7 @@ p.lead {
     }
 
         #sideNav .navbar-brand {
-            display: flex;
+           
             margin: auto auto 0;
             padding: 0.5rem;
             font-weight: 800;
