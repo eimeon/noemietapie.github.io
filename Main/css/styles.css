@@ -12426,7 +12426,7 @@ body {
     }
 }
 
-h1, .h1,
+
 h2,
 .h2,
 h3,
@@ -12438,6 +12438,11 @@ h5,
 h6,
 .h6 {
     text-transform: uppercase;
+}
+
+h1, .h1 {
+    text-transform: none;
+    font-size: 43px;
 }
 
 h1, .h1 {
