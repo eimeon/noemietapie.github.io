@@ -12578,3 +12578,10 @@ section.resume-section {
         padding-bottom: 5rem;
     }
 }
+
+
+.block .divider {
+    opacity: 0.8;
+    display: block;
+    margin-top: 20px;
+}
