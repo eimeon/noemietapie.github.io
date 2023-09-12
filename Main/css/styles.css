@@ -4226,7 +4226,7 @@ textarea.form-control-lg {
 .navbar-nav {
     --bs-nav-link-padding-x: 0;
     --bs-nav-link-padding-y: 0.5rem;
-    --bs-nav-link-font-weight:;
+    --bs-nav-link-font-weight: 500;
     --bs-nav-link-color: var(--bs-navbar-color);
     --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
     --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
@@ -4649,8 +4649,8 @@ textarea.form-control-lg {
         }
 
 .navbar-dark {
-    --bs-navbar-color: rgba(0, 0, 0, 0.55);
-    --bs-navbar-hover-color: rgba(0, 0, 0, 0.75);
+    --bs-navbar-color: rgba(0, 0, 0, 1);
+    --bs-navbar-hover-color: rgba(0, 0, 0, 0.55);
     --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
     --bs-navbar-active-color: #fff;
     --bs-navbar-brand-color: #fff;
@@ -12462,7 +12462,7 @@ p.lead {
 }
 
     #sideNav .navbar-nav .nav-item .nav-link {
-        font-weight: 800;
+        font-weight: 300;
         letter-spacing: 0.05rem;
         text-transform: none;
         margin-left: 40px;
