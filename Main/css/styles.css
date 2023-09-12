@@ -12585,3 +12585,12 @@ section.resume-section {
     display: block;
     margin-top: 20px;
 }
+
+
+    .block .divider span {
+        background-color: var(--color);
+        display: inline-block;
+        width: 140px;
+        height: 1px;
+        display: inline-block;
+    }
