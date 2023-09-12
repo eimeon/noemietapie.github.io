@@ -226,7 +226,7 @@ blockquote {
 
 b,
 strong {
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 small, .small {
@@ -12444,11 +12444,9 @@ h1, .h1 {
     text-transform: none;
     font-size: 43px;
     text-align: center;
-}
-
-h1, .h1 {
     line-height: 1;
 }
+
 
 p.lead {
     font-size: 1.15rem;
