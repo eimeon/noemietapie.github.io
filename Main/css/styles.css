@@ -8146,6 +8146,12 @@ textarea.form-control-lg {
 .flex-grow-2 {
     flex-grow: 2 !important;
 }
+.flex-grow-3 {
+    flex-grow: 3 !important;
+}
+.flex-grow-4 {
+    flex-grow: 4 !important;
+}
 
 .flex-shrink-0 {
     flex-shrink: 0 !important;
