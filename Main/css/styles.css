@@ -12601,11 +12601,5 @@ section.resume-section {
     }
 
 
-video {
-    width: 100% !important;
-    height: auto !important;
-    min-height: 240px;
-    position: fixed;
-}
 
 
