@@ -12599,3 +12599,13 @@ section.resume-section {
         height: 1px;
         display: inline-block;
     }
+
+
+video {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 240px;
+    position: fixed;
+}
+
+
