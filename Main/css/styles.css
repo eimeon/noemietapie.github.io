@@ -8161,6 +8161,17 @@ textarea.form-control-lg {
     flex-shrink: 1 !important;
 }
 
+.flex-shrink-2 {
+    flex-shrink: 2 !important;
+}
+
+.flex-shrink-3 {
+    flex-shrink: 3 !important;
+}
+.flex-shrink-4 {
+    flex-shrink: 4 !important;
+}
+
 .flex-wrap {
     flex-wrap: wrap !important;
 }
