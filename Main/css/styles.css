@@ -12608,8 +12608,4 @@ video {
     position: fixed;
 }
 
-@media (min-width:1200px) {
-    .video {
-        width: 100% !important;
-    }
-}
+
