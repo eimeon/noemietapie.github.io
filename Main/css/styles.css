@@ -8161,16 +8161,7 @@ textarea.form-control-lg {
     flex-shrink: 1 !important;
 }
 
-.flex-shrink-2 {
-    flex-shrink: 2 !important;
-}
 
-.flex-shrink-3 {
-    flex-shrink: 3 !important;
-}
-.flex-shrink-4 {
-    flex-shrink: 4 !important;
-}
 
 .flex-wrap {
     flex-wrap: wrap !important;
@@ -12470,6 +12461,14 @@ h1, .h1 {
 h3, .h3 {
     text-transform: none;
     font-size: 36px;
+    text-align: left;
+    line-height: 1;
+    font-weight: bold;
+}
+
+h4, .h4 {
+    text-transform: none;
+    font-size: 22px;
     text-align: left;
     line-height: 1;
     font-weight: bold;
