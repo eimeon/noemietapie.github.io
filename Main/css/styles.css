@@ -12473,7 +12473,7 @@ h3, .h3 {
 h4, .h4 {
     font-size: 1.25rem;
     text-align: left;
-    line-height: 0;
+    line-height: 1;
     font-weight: 400;
     text-transform: uppercase;
     color: #bf62e7;
@@ -12484,7 +12484,7 @@ h4, .h4 {
 .p4 {
     font-size: 1rem;
     text-align: left;
-    line-height: 0;
+    line-height: 1;
     font-weight: 300;
     text-transform: none;
     margin-bottom: 33px;
