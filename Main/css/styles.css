@@ -12478,6 +12478,7 @@ h4, .h4 {
     text-transform: uppercase;
     color: #bf62e7;
     margin-bottom: 22px;
+    display: contents;
 }
 
 .p4 {
@@ -12488,6 +12489,7 @@ h4, .h4 {
     text-transform: none;
     margin-bottom: 33px;
     margin-left: 1px;
+    display: contents;
 }
 
 p.lead {
