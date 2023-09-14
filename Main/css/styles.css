@@ -12478,7 +12478,7 @@ h4, .h4 {
     text-transform: uppercase;
     color: #bf62e7;
     margin-bottom: 22px;
-    display: contents !important;
+    display: block;
 }
 
 .p4 {
@@ -12490,7 +12490,7 @@ h4, .h4 {
     margin-bottom: 33px;
     margin-left: 1px;
     margin-top:7px;
-    display: contents !important;
+    display: block;
 }
 
 p.lead {
