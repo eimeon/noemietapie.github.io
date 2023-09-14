@@ -12490,8 +12490,9 @@ h4, .h4 {
     text-transform: none;
     margin-bottom: 33px;
     margin-left: 1px;
-    margin-top:7px;
+    margin-top: 7px;
     display: block;
+    word-wrap: break-word;
 }
 
 p.lead {
