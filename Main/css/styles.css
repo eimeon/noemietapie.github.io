@@ -8477,6 +8477,10 @@ textarea.form-control-lg {
     margin-bottom: 3rem !important;
 }
 
+.mb-12{
+    margin-bottom: 12rem !important;
+}
+
 .mb-auto {
     margin-bottom: auto !important;
 }
@@ -12453,9 +12457,9 @@ h6,
 
 h1, .h1 {
     text-transform: none;
-    font-size: 43px;
+    font-size: 55px;
     text-align: center;
-    line-height: 1;
+    line-height: 1.4;
 }
 
 h3, .h3 {
@@ -12467,11 +12471,20 @@ h3, .h3 {
 }
 
 h4, .h4 {
-    text-transform: none;
-    font-size: 22px;
+    font-size: 1.25rem;
     text-align: left;
-    line-height: 1;
-    font-weight: bold;
+    line-height: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.p4 {
+    font-size: 1rem;
+    text-align: left;
+    line-height: 0;
+    font-weight: 300;
+    text-transform: none;
+    margin-bottom:20px;
 }
 
 p.lead {
