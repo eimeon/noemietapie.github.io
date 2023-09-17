@@ -4071,7 +4071,7 @@ textarea.form-control-lg {
     pointer-events: none;
     cursor: default;
 }
-.sidenav a.active {
+.navlink a.active {
     color: #74a8ff;
     font-weight: 500;
 }
