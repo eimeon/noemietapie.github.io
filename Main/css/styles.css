@@ -12536,6 +12536,7 @@ p.lead {
         flex-direction: column;
         width: 17rem;
         height: 100vh;
+        align-items: flex-start;
     }
 
         #sideNav .navbar-brand {
