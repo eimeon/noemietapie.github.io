@@ -4071,6 +4071,10 @@ textarea.form-control-lg {
     pointer-events: none;
     cursor: default;
 }
+.sidenav a.active {
+    color: #74a8ff;
+    font-weight: 500;
+}
 
 .nav-tabs {
     --bs-nav-tabs-border-width: 1px;
