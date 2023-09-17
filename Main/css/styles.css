@@ -12480,6 +12480,7 @@ h4, .h4 {
     color: #bf62e7;
     display: block;
     margin-top: 22px;
+    margin-bottom: 7px;
 }
 
 .p4 {
@@ -12488,7 +12489,6 @@ h4, .h4 {
     line-height: 1.23;
     font-weight: 300;
     text-transform: none;
-    margin-bottom: 33px;
     margin-left: 1px;
     margin-top: 7px;
     display: block;
