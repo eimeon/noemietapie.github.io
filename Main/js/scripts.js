@@ -34,7 +34,12 @@ window.addEventListener('DOMContentLoaded', event => {
     
 
 });
-// Get all the expand buttons
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+   // Get all the expand buttons
 const expandBtns = document.querySelectorAll('.expand-btn');
 
 // Add event listeners to each expand button
@@ -51,4 +56,7 @@ expandBtns.forEach(btn => {
         }
     });
 });
+
+});
+
 
