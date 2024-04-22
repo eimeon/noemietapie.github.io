@@ -12687,7 +12687,7 @@ video {
 
 blockquote{
         font-size: 90%;
-        width: 100%;
+        width: 50%;
         margin: 20px auto;
     font-style:italic;
     color: #555555;
@@ -12704,7 +12704,7 @@ blockquote{
     color:var(--bs-gray-300);
     font-size:4em;
     position: absolute;
-    left: 40px;
+    left: 30px;
     top:-10px;
   }
 
@@ -12715,7 +12715,7 @@ blockquote{
     color:var(--bs-gray-300);
     font-size:4em;
     position:absolute;
-    right: 40px;
+    right: 30px;
     top:0;
   }
   
