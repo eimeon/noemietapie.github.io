@@ -12718,4 +12718,12 @@ blockquote{
     right: 00px;
     top:0;
   }
+
+  .more-info {
+    display: none; /* Initially hide the more information section */
+}
+
+.expand-btn {
+    cursor: pointer;
+}
   

@@ -31,4 +31,24 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    
+
 });
+// Get all the expand buttons
+const expandBtns = document.querySelectorAll('.expand-btn');
+
+// Add event listeners to each expand button
+expandBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const moreInfo = btn.nextElementSibling; // Get the sibling element which contains more information
+
+        if (moreInfo.style.display === 'none') {
+            moreInfo.style.display = 'block'; // Show more information
+            btn.textContent = 'Less Information'; // Change button text
+        } else {
+            moreInfo.style.display = 'none'; // Hide more information
+            btn.textContent = 'More Information'; // Change button text back
+        }
+    });
+});
+
