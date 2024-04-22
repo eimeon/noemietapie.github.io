@@ -12698,7 +12698,7 @@ video {
 
 blockquote{
         font-size: 90%;
-        width: 50%;
+        width: max-content;
         margin: 20px auto;
         font-family: var(--bs-font-sans-sherif);
     font-style:italic;
