@@ -12679,3 +12679,37 @@ video {
     min-width:250px;h
 }
 
+blockquote{
+        font-size: 80%;
+        width: 60%;
+        margin: 50px auto;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 75px 1.2em 75px;
+    
+    line-height:1.6;
+    position: relative;
+   
+  }
+  
+  blockquote::before{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    content: "\201C";
+    color:var(--bs-gray-300);
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+
+  
+  blockquote::after{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    content: "\201E";
+    color:var(--bs-gray-300);
+    font-size:4em;
+    position:absolute;
+    right: 10px;
+    bottom:10px;
+  }
+  
