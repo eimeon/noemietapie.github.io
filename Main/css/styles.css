@@ -12704,7 +12704,7 @@ blockquote{
     color:var(--bs-gray-300);
     font-size:4em;
     position: absolute;
-    left: 30px;
+    left: 00px;
     top:-10px;
   }
 
@@ -12715,7 +12715,7 @@ blockquote{
     color:var(--bs-gray-300);
     font-size:4em;
     position:absolute;
-    right: 30px;
+    right: 00px;
     top:0;
   }
   
