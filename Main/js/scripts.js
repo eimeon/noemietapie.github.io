@@ -39,23 +39,26 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-   // Get all the expand buttons
+// Get all the expand buttons
 const expandBtns = document.querySelectorAll('.expand-btn');
 
 // Add event listeners to each expand button
 expandBtns.forEach(btn => {
     btn.addEventListener('click', () => {
+        console.log('Button clicked:', btn);
         const moreInfo = btn.nextElementSibling; // Get the sibling element which contains more information
+        console.log('Next sibling:', moreInfo);
 
-        if (moreInfo.style.display === 'none') {
+        if (moreInfo && (moreInfo.style.display === 'none' || !moreInfo.style.display)) {
             moreInfo.style.display = 'block'; // Show more information
-            btn.textContent = 'Less Information'; // Change button text
-        } else {
+            btn.textContent = 'Less info'; // Change button text
+        } else if (moreInfo) {
             moreInfo.style.display = 'none'; // Hide more information
-            btn.textContent = 'More Information'; // Change button text back
+            btn.textContent = 'More info'; // Change button text back
         }
     });
 });
+
 
 });
 

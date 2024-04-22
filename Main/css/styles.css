@@ -12719,11 +12719,43 @@ blockquote{
     top:0;
   }
 
-  .more-info {
-    display: none; /* Initially hide the more information section */
+  .project {
+    position: relative; /* Ensure relative positioning for absolute positioning of .more-info */
 }
 
+
 .expand-btn {
+    background-color: #bf62e7; /* Google Blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.more-info {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px); /* Position below the button */
+    left: 0;
+    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    z-index: 1; /* Ensure the info section appears above other content */
+}
+
+.expand-btn:hover + .more-info {
+    display: block; /* Show the more info section when button is hovered */
+}
+
+.expand-btn:hover {
+    background-color: #842fa8; /* New color on hover */
+    border-color: #a13dcc; /* New border color on hover */
+    /* You can adjust other properties as needed */
 }
   
