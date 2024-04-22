@@ -12681,13 +12681,13 @@ video {
 
 blockquote{
         font-size: 80%;
-        width: 60%;
-        margin: 50px auto;
+        width: 70%;
+        margin: 30px auto;
     font-style:italic;
     color: #555555;
     padding:1.2em 75px 1.2em 75px;
     
-    line-height:1.6;
+    line-height:1.2;
     position: relative;
    
   }
