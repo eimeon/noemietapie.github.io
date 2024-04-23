@@ -200,7 +200,7 @@ address {
 
 ol,
 ul {
-    padding-left: 20rem;
+    padding-left: 1.5rem;
 }
 
 ol,
@@ -12808,6 +12808,19 @@ blockquote{
     .project-img2 {
         width: calc(30% - 5px); /* Set width to 50% minus margin */
         margin-bottom: 0; /* Remove margin bottom for images in the same row */
+    }
+}
+
+.projet-text{
+    width: 100%;
+    
+}
+@media (max-width: 768px) {
+    .project-text {
+        width:100%; 
+        margin-right: 0; /* Remove margin on smaller screens */
+        margin-bottom: 20px;
+        
     }
 }
 
