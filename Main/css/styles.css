@@ -12786,7 +12786,9 @@ blockquote{
     width: 50%; /* Initial width for the image */
     height: auto; /* Maintain aspect ratio */
     margin-top: 13px;
+    max-width:100%;
 }
+
 
 @media (max-width: 768px) {
     .project-img {
@@ -12794,5 +12796,20 @@ blockquote{
         margin-right: 0; /* Remove margin on smaller screens */
     }
 }
+
+.project-img2 {
+    width: 100%; /* Set width to 100% */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Adjust margin between images */
+}
+
+/* Adjust the width for smaller screens */
+@media (min-width: 768px) {
+    .project-img2 {
+        width: calc(30% - 5px); /* Set width to 50% minus margin */
+        margin-bottom: 0; /* Remove margin bottom for images in the same row */
+    }
+}
+
 
 
