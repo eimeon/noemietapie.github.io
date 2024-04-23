@@ -12771,3 +12771,28 @@ blockquote{
     /* You can adjust other properties as needed */
 }
   
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+}
+
+.item {
+    flex: 1 0 300px; /* Flex basis of 300px, adjust as needed */
+    margin: 10px; /* Adjust spacing between items */
+    text-align: center; /* Center-align content */
+}
+
+.project-img {
+    width: 50%; /* Initial width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 13px;
+}
+
+@media (max-width: 768px) {
+    .project-img {
+        width: 100%; /* Full width on smaller screens */
+        margin-right: 0; /* Remove margin on smaller screens */
+    }
+}
+
+
