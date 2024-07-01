@@ -130,7 +130,7 @@ h1, .h1 {
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-family: var(--bs-font-sans-serif);
-    font-weight: 700;
+    font-weight: 800;
     line-height: 1.0;
     color: rgb(0,0,0);
 }
@@ -12456,8 +12456,7 @@ body {
 }
 
 
-h2,
-.h2,
+
 h3,
 .h3,
 h4,
@@ -12471,11 +12470,12 @@ h6,
 
 h1, .h1 {
     text-transform: none;
-    font-size: 45px;
+    font-size: 42px;
     text-align: center;
     line-height: 1.2;
-    font-weight: 100;
-    margin-top
+    font-weight: 300;
+    color: #191919;
+
 }
 
 h3, .h3 {
@@ -12697,12 +12697,12 @@ video {
 }
 
 blockquote{
-        font-size: 90%;
+        font-size: 32px;
         width: max-content;
         margin: 20px auto;
         font-family: var(--bs-font-sans-sherif);
-    font-style:italic;
-    color: #555555;
+        font-weight: 800;
+    color: #191919;
     padding:1.2em 75px 1.2em 75px;
     
     line-height:1.2;
@@ -12710,26 +12710,26 @@ blockquote{
    
   }
   
-  blockquote::before{
+  /*blockquote::before{
     font-family:Georgia, 'Times New Roman', Times, serif;
     content: "\201C";
-    color:var(--bs-gray-300);
-    font-size:4em;
+    color:var(--bs-gray-200);
+    font-size:2em;
     position: absolute;
     left: 00px;
-    top:-10px;
+    top:10px;
   }
 
   
   blockquote::after{
     font-family:Georgia, 'Times New Roman', Times, serif;
     content: "\201D";
-    color:var(--bs-gray-300);
-    font-size:4em;
+    color:var(--bs-gray-200);
+    font-size:2em;
     position:absolute;
     right: 00px;
-    top:0;
-  }
+    top: 10px;
+  }*/
 
   .project {
     position: relative; /* Ensure relative positioning for absolute positioning of .more-info */
