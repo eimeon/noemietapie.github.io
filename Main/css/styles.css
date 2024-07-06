@@ -12899,22 +12899,39 @@ line-height: 50px; /* 68.75% */
     border-radius: 45px;
     align-self: stretch;
     width: 100%;
-
-
-
 /* Shadow */
 box-shadow: 0px 0px 14px 0px rgba(8, 13, 25, 0.20);
 }
+
 @media (max-width: 992px) {
     .img-portfolio {
         border-radius: 20px;
     }
 }
 
-.img-portfolio:hover {
+
+
+
+
+.img-portfolio-modal{
+    border-radius: 45px;
+    align-self: stretch;
+    width: 100%;
+/* Shadow */
+box-shadow: 0px 0px 14px 0px rgba(8, 13, 25, 0.20);
+}
+
+@media (max-width: 992px) {
+    .img-portfolio-modal {
+        border-radius: 20px;
+    }
+}
+
+.img-portfolio-modal:hover {
     transform: scale(1.1);
     transition: transform 0.5s;
 }
+
 
 .modal {
     display: none;
@@ -12927,6 +12944,7 @@ box-shadow: 0px 0px 14px 0px rgba(8, 13, 25, 0.20);
 
 @media (min-width: 992px) {
    .modal {
+    display: none;
     padding-left: 20rem;
     padding-right: 20rem;
     padding-top: 5rem;
@@ -12936,6 +12954,7 @@ box-shadow: 0px 0px 14px 0px rgba(8, 13, 25, 0.20);
 
 @media (max-width: 992px) {
     .modal {
+        display: none;
         padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 5rem;
@@ -12945,6 +12964,7 @@ box-shadow: 0px 0px 14px 0px rgba(8, 13, 25, 0.20);
 
 @media (max-width: 450px) {
     .modal {
+        display: none;
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 50%;
@@ -12952,7 +12972,7 @@ box-shadow: 0px 0px 14px 0px rgba(8, 13, 25, 0.20);
     }
 }
 
-.modal-content {
+.modal-content{
     max-width: 100%;
     max-height: 100%;
     position: relative;

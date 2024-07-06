@@ -63,19 +63,13 @@ expandBtns.forEach(btn => {
 });
 
 
-function openModal(imageSrc) {
-    const modal = document.getElementById("imageModal");
-    const modalImg = document.getElementById("modalImage");
-    modal.style.display = "flex";
-    modalImg.src = imageSrc;
-}
 
 document.addEventListener("DOMContentLoaded", function() {
     const modal = document.getElementById("imageModal");
     const modalImg = document.getElementById("modalImage");
     const closeBtn = document.getElementsByClassName("close")[0];
 
-    const images = document.getElementsByClassName("img-portfolio");
+    const images = document.getElementsByClassName("img-portfolio-modal");
     for (let img of images) {
         img.addEventListener("click", function() {
             modal.style.display = "block";
