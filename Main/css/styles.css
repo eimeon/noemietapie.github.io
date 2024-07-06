@@ -12896,6 +12896,10 @@ box-shadow: 0px 0px 14px 0px rgba(8, 13, 25, 0.20);
     margin-bottom: 100px !important;
 }
 
+.mb-300 {
+    margin-bottom: 250px !important;
+}
+
 .overview-block{
     display: flex;
 flex-direction: column;
@@ -12936,3 +12940,22 @@ font-weight: 400;
 line-height: 35px; /* 156.25% */
 margin-bottom: 12px;
 }
+
+.maquettes-block{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+}
+
+.maquettes-row{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+}
+
+
