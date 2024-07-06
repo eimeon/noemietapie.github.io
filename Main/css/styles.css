@@ -12866,12 +12866,12 @@ section.portfolio-section{
 }
 
 
-section.portfolio-section-content{
+.portfolio-section-content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 200px;
     align-self: stretch;
+    justify-content: flex-start;
 }
 
 .headline-block {
@@ -12920,7 +12920,7 @@ box-shadow: 0px 0px 14px 0px rgba(8, 13, 25, 0.20);
 
 
 
-
+/*-----------------IMAGE------------------*/
 .img-portfolio-modal{
     border-radius: 45px;
     align-self: stretch;
@@ -13011,6 +13011,8 @@ box-shadow: 0px 0px 14px 0px rgba(8, 13, 25, 0.20);
     cursor: pointer;
 }
 
+/*---------------------------------------*/
+
 .mb-100 {
     margin-bottom: 100px !important;
 }
@@ -13072,7 +13074,7 @@ align-self: stretch;
 
 .maquettes-row{
     display: flex;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
 gap: 20px;
 align-self: stretch;
@@ -13207,3 +13209,73 @@ line-height: 20px; /* 125% */
 
 }
 
+
+/*-------------------------------*/
+.text-img-block{
+display: flex;
+align-items: center;
+align-content: center;
+gap: 100px;
+align-self: stretch;
+flex-wrap: wrap;
+}
+
+
+
+/*-------------------------------------*/
+.image-container {
+    position: relative;
+    display: inline-block; /* Ensures the container only takes up as much space as the image */
+}
+
+.body-text-position {
+    position: absolute;
+
+    background: rgba(255, 255, 255, 0.7); /* Optional: Adds a semi-transparent background to the text for readability */
+    padding: 5px; /* Optional: Adds some padding around the text */
+    border-radius: 10px; /* Optional: Rounds the corners of the background */
+    
+    color: #060B17;
+
+    /* Body */
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+
+    text-align: right;
+    align-self: stretch;
+    
+}
+
+@media (min-width: 992px) {
+    .body-text-position {
+        width:40%;
+
+     }
+ }
+ 
+ @media (max-width: 992px) {
+    .body-text-position {
+         width:40%;
+         font-size: 16px;
+         line-height: 23px;
+     }
+ }
+ 
+ @media (max-width: 450px) {
+    .body-text-position {
+        width:100%;
+        font-size: 16px;
+        line-height: 23px;
+  
+     }
+ }
+
+
+.img-portfolio-modal-position {
+    display: block;
+    width: 100%;
+    height: auto;
+}
