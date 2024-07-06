@@ -13288,6 +13288,19 @@ flex-wrap: wrap;
     height: auto;
 }
 
+.header-text-position{
+    position: absolute;
+    color: #060B17;
+    text-align: left;
+/* H1 */
+font-family: "Open Sans";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px; /* 120.313% */
+
+}
+
 
 /*-------------------------------------*/
 
