@@ -12545,6 +12545,13 @@ p.lead {
     font-size: 1.5rem;
 }
 
+br1{
+    display: block; /* makes it have a width */
+            content: ""; /* clears default height */
+            margin-top: 0; /* change this to whatever height you want it */
+
+}
+
 #sideNav {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -12658,13 +12665,14 @@ section.resume-section {
 @media (min-width: 768px) {
     section.resume-section {
         min-height: 100vh;
+        padding-left: 240px;
+        padding-right: 240px;
     }
 }
 
 @media (min-width: 992px) {
     section.resume-section {
-        padding-left: 1rem;
-        padding-right: 1rem;
+
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
@@ -12842,16 +12850,13 @@ section.portfolio-section{
     section.portfolio-section {
        
         padding-top: 5rem;
-        padding-bottom: 300px;
     }
 }
 
 @media (max-width: 992px) {
     section.portfolio-section {
-        padding-left: 5rem;
-        padding-right: 5rem;
+
         padding-top: 5rem;
-        padding-bottom: 300px;
     }
 }
 
@@ -12860,7 +12865,6 @@ section.portfolio-section{
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 5rem;
-        padding-bottom: 300px;
     }
 }
 
@@ -13464,7 +13468,6 @@ text-decoration-line: underline;
     left: 0;
     bottom: 0;
     width: 100%;
-    border-radius: 8px;
     height: 20%; /* Initially covers only the bottom */
     background-color: rgba(10, 10, 10, 1); /* Dark transparent background */
     display: flex;
@@ -13531,8 +13534,8 @@ text-decoration-line: underline;
     display:flex;
     flex-direction: row;
     align-items: flex-start;
-
-    justify-content: space-between;
+    flex-wrap: wrap;
+    width:100%
 
 
 }
@@ -13780,3 +13783,6 @@ text-decoration-line: underline;
       transform: translateZ(0) scale(1.4);
     }
   }
+
+
+ 
