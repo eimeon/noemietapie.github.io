@@ -12835,10 +12835,41 @@ blockquote{
 
 
 
+section.portfolio-section-left{
+    
+    flex-direction: column;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
 
+
+}
+@media (min-width: 992px) {
+    section.portfolio-section-left {
+       
+        padding-top: 5rem;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}
+
+@media (max-width: 992px) {
+    section.portfolio-section-left {
+
+        padding-top: 5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    section.portfolio-section-left {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 5rem;
+    }
+}
 
 section.portfolio-section{
-    display: flex;
+    
     flex-direction: column;
     align-items: center;
     padding-left: 75px;
@@ -12850,6 +12881,8 @@ section.portfolio-section{
     section.portfolio-section {
        
         padding-top: 5rem;
+        padding-right: 250px;
+        padding-left: 250px;
     }
 }
 
@@ -13785,4 +13818,14 @@ text-decoration-line: underline;
   }
 
 
- 
+  .content {
+    display: none;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .content.active {
+    display: block;
+  }
+
+  

@@ -88,9 +88,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-function toggleContent(contentId) {
-    var content = document.getElementById(contentId);
-    content.classList.toggle('active');
-  }
+function showContent(contentId) {
+    // Hide all content sections
+    var contents = document.querySelectorAll('.content');
+    contents.forEach(function(content) {
+        content.classList.remove('active');
+    });
 
+    // Show the selected content
+    var selectedContent = document.getElementById(contentId);
+    selectedContent.classList.add('active');
 
+}
