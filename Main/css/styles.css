@@ -12862,8 +12862,7 @@ section.portfolio-section-left{
 
 @media (max-width: 450px) {
     section.portfolio-section-left {
-        padding-left: 1rem;
-        padding-right: 1rem;
+
         padding-top: 5rem;
     }
 }
